@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Titles</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>List of Remote Jobs</h1>
+    <p class="link"><a href="https://www.cnbc.com/2023/01/09/companies-that-will-let-you-work-from-home-and-are-hiring-now-flexjobs-report.html">Full article link</a></p>
+    <ul>
+        <% jobTitles.forEach(function(title) { %>
+            <li><%= title %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>

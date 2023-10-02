@@ -1,0 +1,50 @@
+/* public/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .link {
+    text-align: center;
+    transition: all 0.2s ease-in-out
+    cursor: pointer;
+  }
+
+  .link:hover {
+    transform: scale(1.1);
+  }
+
+  .link a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .link a:hover {
+    text-decoration: underline;
+    color: green;
+  }
+
+
+  
